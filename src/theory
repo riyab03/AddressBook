@@ -1,0 +1,12 @@
+#data structure: is an algo way of storing info based upon what usage that data will be.
+linear data structure: that means all the data are considered as same level entry - eg arraylist, queue,stack
+hierarical ds: that means there is specific heiricy of data and some data have diff prioriryt rating then others like tree , grpah
+
+#we will be using linear ds to store the contacts because we are not expecting any contacts to stand out or we are following in any order, we just want to store then ,
+
+#if our data we require must have very frequent suggestion , searching or ranking we use hierarical like utube video recommendation, fb insta post
+
+#how videos are stored in utube : linear ds
+
+In linear ds ,we are not curating any data and warehousing is good and scaling is very easy in linear ds
+
