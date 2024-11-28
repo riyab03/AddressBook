@@ -17,5 +17,18 @@ public class Contact {
         this.zip = zip;
     }
 
+    public String toString(){
+        return "Contact{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastname + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", email='" + email + '\'' +
+                ", phone=" + phone +
+                ", zip=" + zip +
+                '}';
+    }
+
+
 
 }
