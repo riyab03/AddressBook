@@ -10,13 +10,14 @@ public class Main {
         AddressBook A1=new AddressBook();
         int i=1;
         do{
-            System.out.println("Enter 1 to create contact \n enter 2 to display all contacts details");
+            System.out.println("Enter 1 to create contact \n enter 2 to display all contacts details \n 3 to edit the already existing detail of any employee");
             int input = sc.nextInt();
             switch (input) {
                 case 1:
                     A1.createContact();
                     break;
                 case 2: A1.display();break;
+                case 3: A1.edit();break;
                 default:
                     System.out.println("wrong input");;
             }
