@@ -59,4 +59,8 @@ public class Contact {
     public void setZip(int next) {
         this.zip=next;
     }
+
+    public String getFirstname() {
+        return firstName;
+    }
 }

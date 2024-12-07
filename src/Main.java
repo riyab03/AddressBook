@@ -10,7 +10,7 @@ public class Main {
         AddressBook A1=new AddressBook();
         int i=1;
         do{
-            System.out.println("Enter 1 to create contact \n enter 2 to display all contacts details \n 3 to edit the already existing detail of any employee");
+            System.out.println("Enter 1 to create contact \n enter 2 to display all contacts details \n 3 to edit the already existing detail of any employee \n 4) to delete contact detail using name");
             int input = sc.nextInt();
             switch (input) {
                 case 1:
@@ -18,6 +18,7 @@ public class Main {
                     break;
                 case 2: A1.display();break;
                 case 3: A1.edit();break;
+                case 4: A1.deleteByName();break;
                 default:
                     System.out.println("wrong input");;
             }

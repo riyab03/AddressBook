@@ -58,4 +58,11 @@ public class AddressBook {
     }
 
 
+    public void deleteByName() {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter first name of employee you want to delete detail ");
+        String s1=sc.next();
+        Contact c=addBook.stream().filter(t->t.getFirstname().equalsIgnoreCase(s1)).findFirst().get();
+        addBook.remove(c);
+    }
 }
